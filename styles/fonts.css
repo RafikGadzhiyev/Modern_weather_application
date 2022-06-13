@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Raleway";
+    src: url('./../assets/fonts/Raleway/Raleway-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: "Raleway Black";
+    src: url('./../assets/fonts/Raleway/Raleway-Black.ttf');
+}
+
+@font-face {
+    font-family: "Raleway Black Italic";
+    src: url('./../assets/fonts/Raleway/Raleway-BlackItalic.ttf');
+}
+
+@font-face {
+    font-family: "Raleway Black Bold";
+    src: url('./../assets/fonts/Raleway/Raleway-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Raleway Bold Italic";
+    src: url('./../assets/fonts/Raleway/Raleway-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: "Raleway Extra Bold";
+    src: url('./../assets/fonts/Raleway/Raleway-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: "Raleway Extra Bold Italic";
+    src: url('./../assets/fonts/Raleway/Raleway-ExtraBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: "Raleway Extra Light";
+    src: url('./../assets/fonts/Raleway/Raleway-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: "Raleway Extra Light Italic";
+    src: url('./../assets/fonts/Raleway/Raleway-ExtraLightItalic.ttf');
+}
+
+@font-face {
+    font-family: "Raleway Italic";
+    src: url('./../assets/fonts/Raleway/Raleway-Italic.ttf');
+}
+
+@font-face {
+    font-family: "Raleway Light";
+    src: url('./../assets/fonts/Raleway/Raleway-Light.ttf');
+}
+
+@font-face {
+    font-family: "Raleway Light Italic";
+    src: url('./../assets/fonts/Raleway/Raleway-LightItalic.ttf');
+}
+
+@font-face {
+    font-family: "Raleway Medium";
+    src: url('./../assets/fonts/Raleway/Raleway-Medium.ttf');
+}
+
+@font-face {
+    font-family: "Raleway Meduim Italic";
+    src: url('./../assets/fonts/Raleway/Raleway-MediumItalic.ttf');
+}
+
+@font-face {
+    font-family: "Raleway Regular";
+    src: url("./../assets/fonts/Raleway/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Raleway Semi Bold";
+    src: url('./../assets/fonts/Raleway/Raleway-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: "Raleway Semi Bold Italic";
+    src: url('./../assets/fonts/Raleway/Raleway-SemiBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: "Raleway Thin";
+    src: url('./../assets/fonts/Raleway/Raleway-Thin.ttf');
+}
+
+@font-face {
+    font-family: "Raleway Thin Italic";
+    src: url('./../assets/fonts/Raleway/Raleway-ThinItalic.ttf');
+}
