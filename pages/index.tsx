@@ -17,13 +17,20 @@ const Home: NextPage = () => {
 
 	React.useEffect(() => {
 		if (once.current || store.current_city) {
-			window.navigator.geolocation.getCurrentPosition((position: GeolocationPosition) => {
-				dispatch(__INIT__(
-					position.coords.latitude,
-					position.coords.longitude,
+			const currentPosition = {
+				latitude: 43.2363924,
+				longitude: 76.9457275,
+			};
 
-				))
+			window.navigator.geolocation.getCurrentPosition((position: GeolocationPosition) => {
+				currentPosition.latitude = position.coords.latitude;
+				currentPosition.longitude = position.coords.longitude;
 			});
+			dispatch(__INIT__(
+				currentPosition.latitude,
+				currentPosition.longitude,
+
+			))
 			once.current--;
 		}
 	}, [store.current_city.lat, store.current_city.lon, dispatch])
